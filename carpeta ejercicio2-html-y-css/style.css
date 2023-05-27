@@ -1,0 +1,34 @@
+.formulario {
+    background:linear-gradient(#bd09b7,#6b4cf5);
+    border-radius: 20px;
+    margin: 0% auto;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 3px 3px 11px 2px gray;
+} 
+
+.container >h1{
+    color: white;
+}
+
+/* asi se hace un comentario*/
+
+div {
+    color: white;
+} 
+
+
+form >div :not(:last-of-type){
+    display: flex;
+    flex-direction: column;
+}
+
+input, select{
+    padding: 7px;
+}
+
+
+button{
+    margin-left: 220px;
+    padding: 5px 15px;
+}
